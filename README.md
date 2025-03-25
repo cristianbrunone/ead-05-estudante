@@ -22,10 +22,9 @@ As melhorias foram implementadas para atender aos seguintes objetivos:
 4. **Acessibilidade** – Melhoria nas práticas de acessibilidade, como o uso adequado de tags HTML e foco nos campos de formulário.
 5. **Validações** – Implementação de validações de formulário adequadas, especialmente para o campo de email.
 
-## Estrutura do Projeto
+## 🗂 Estrutura de Pastas do Projeto
 
-A estrutura do projeto foi reorganizada da seguinte maneira para melhorar a organização:
-
+```
 /assets
   /css
     styles.css
@@ -41,6 +40,7 @@ A estrutura do projeto foi reorganizada da seguinte maneira para melhorar a orga
     sobre.html
     index.html
 README.md
+```
 
 
 ## Mudanças Realizadas
