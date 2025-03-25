@@ -1,0 +1,133 @@
+/* Resetando alguns estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+
+.container:hover {
+    transform: translateY(-10px);
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #555;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-left: 15px;
+}
+
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #5D6D7E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #4A5B6A;
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+    background-color: #3C4751;
+    box-shadow: 0 0 8px rgba(0, 255, 0, 0.5);
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #cfcfcf;
+}
+
+
+#listausers {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#listausers li {
+    background-color: #f4f4f4;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#listausers li:hover {
+    background-color: #e8f4e8;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+#listausers li button {
+    padding: 8px 16px;
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+#listausers li button:hover {
+    background-color: #c0392b;
+}
